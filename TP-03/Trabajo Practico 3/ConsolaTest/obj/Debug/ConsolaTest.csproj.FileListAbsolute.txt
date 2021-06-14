@@ -1,0 +1,13 @@
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\ConsolaTest\bin\Debug\ConsolaTest.exe.config
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\ConsolaTest\bin\Debug\ConsolaTest.exe
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\ConsolaTest\bin\Debug\ConsolaTest.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\ConsolaTest\bin\Debug\Archivador.exe
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\ConsolaTest\bin\Debug\Entidades.dll
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\ConsolaTest\bin\Debug\Archivador.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\ConsolaTest\bin\Debug\Archivador.exe.config
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\ConsolaTest\bin\Debug\Entidades.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\ConsolaTest\obj\Debug\ConsolaTest.csprojAssemblyReference.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\ConsolaTest\obj\Debug\ConsolaTest.csproj.CoreCompileInputs.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\ConsolaTest\obj\Debug\ConsolaTest.csproj.CopyComplete
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\ConsolaTest\obj\Debug\ConsolaTest.exe
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\ConsolaTest\obj\Debug\ConsolaTest.pdb
