@@ -1,0 +1,43 @@
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\bin\Debug\frmFabrica.exe.config
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\bin\Debug\frmFabrica.exe
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\bin\Debug\frmFabrica.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\bin\Debug\Entidades.dll
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\bin\Debug\Entidades.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\obj\Debug\Forms Fabrica.csprojAssemblyReference.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\obj\Debug\frmFabrica.frmAgregarMaterial.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\obj\Debug\frmFabrica.frmAgregarMueble.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\obj\Debug\frmFabrica.frmFabrica.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\obj\Debug\frmFabrica.Properties.Resources.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\obj\Debug\Forms Fabrica.csproj.GenerateResource.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\obj\Debug\Forms Fabrica.csproj.CoreCompileInputs.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\obj\Debug\Forms Fabrica.csproj.CopyComplete
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\obj\Debug\frmFabrica.exe
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\obj\Debug\frmFabrica.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\bin\Debug\Archivador.exe
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\bin\Debug\Archivador.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\bin\Debug\Archivador.exe.config
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\obj\Debug\frmFabrica.frmPintar.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\obj\Debug\frmFabrica.frmListaDeMuebles.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\frmFabrica\obj\Debug\frmFabrica.frmListaMateriales.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\bin\Debug\frmFabrica.exe.config
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\bin\Debug\frmFabrica.exe
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\bin\Debug\frmFabrica.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\bin\Debug\Archivador.exe
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\bin\Debug\Entidades.dll
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\bin\Debug\Archivador.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\bin\Debug\Archivador.exe.config
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\bin\Debug\Entidades.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\obj\Debug\frmFabrica.frmAgregarMaterial.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\obj\Debug\frmFabrica.frmAgregarMueble.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\obj\Debug\frmFabrica.frmFabrica.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\obj\Debug\frmFabrica.frmListaDeMuebles.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\obj\Debug\frmFabrica.frmListaMateriales.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\obj\Debug\frmFabrica.frmPintar.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\obj\Debug\frmFabrica.Properties.Resources.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\obj\Debug\Forms Fabrica.csproj.GenerateResource.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\obj\Debug\Forms Fabrica.csproj.CoreCompileInputs.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\obj\Debug\Forms Fabrica.csproj.CopyComplete
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\obj\Debug\frmFabrica.exe
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\obj\Debug\frmFabrica.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\obj\Debug\Forms Fabrica.csproj.AssemblyReference.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\Trabajo Practico 4\frmFabrica\bin\Debug\Entidades.dll.config

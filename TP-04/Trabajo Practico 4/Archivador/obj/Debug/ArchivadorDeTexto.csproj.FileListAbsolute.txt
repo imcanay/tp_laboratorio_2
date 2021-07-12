@@ -1,0 +1,7 @@
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\Archivador\bin\Debug\Archivador.exe.config
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\Archivador\bin\Debug\Archivador.exe
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\Archivador\bin\Debug\Archivador.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\Archivador\obj\Debug\ArchivadorDeTexto.csprojAssemblyReference.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\Archivador\obj\Debug\ArchivadorDeTexto.csproj.CoreCompileInputs.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\Archivador\obj\Debug\Archivador.exe
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 3\Trabajo Practico 3\Archivador\obj\Debug\Archivador.pdb
