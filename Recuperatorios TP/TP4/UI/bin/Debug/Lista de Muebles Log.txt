@@ -1,0 +1,28 @@
+Nuevo archivo creado en: 25/07/2021 19:27:52
+*********lista de Muebles disponibles*****
+
+_________________________________
+Nombre del Mueble: Sillon Madera y algodon
+Base de: madera
+Tapizado de:  Algodon
+El color de la base es: Black
+el color del tapizado es: Black
+_________________________________
+Nombre del Mueble: Ropero Madera y Hierro
+Base de: madera
+El color del Barniz es: Sin
+Estantes de: hierro
+color: Black
+_________________________________
+Nombre del Mueble: Ropero Madera y Madera
+Base de: madera
+El color del Barniz es: Sin
+Estantes de: madera
+color: Black
+_________________________________
+Nombre del Mueble: Sillon Madera y madera
+Base de: madera
+Tapizado de:  madera
+El color de la base es: Black
+el color del tapizado es: Black 
+Agregado el: 25/07/2021 19:27:52

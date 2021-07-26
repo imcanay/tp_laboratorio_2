@@ -1,0 +1,36 @@
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\bin\Debug\UI.exe.config
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\bin\Debug\UI.exe
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\bin\Debug\UI.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\obj\Debug\UI.frmFabrica.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\obj\Debug\UI.exe
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\obj\Debug\UI.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\obj\Debug\UI.frmAgregarMueble.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\obj\Debug\UI.frmAgregarMaterial.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\obj\Debug\UI.frmDiseñar.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\bin\Debug\Entidades.dll
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\bin\Debug\Entidades.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\obj\Debug\UI.frmListaDeMuebles.resources
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\UI\obj\Debug\UI.frmListaDeMateriales.resources
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\bin\Debug\UI.exe.config
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\bin\Debug\UI.exe
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\bin\Debug\UI.pdb
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\bin\Debug\Entidades.dll
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\bin\Debug\Entidades.pdb
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\obj\Debug\UI.frmAgregarMaterial.resources
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\obj\Debug\UI.frmAgregarMueble.resources
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\obj\Debug\UI.frmDiseñar.resources
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\obj\Debug\UI.frmFabrica.resources
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\obj\Debug\UI.frmListaDeMateriales.resources
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\obj\Debug\UI.frmListaDeMuebles.resources
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\obj\Debug\UI.exe
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\UI\obj\Debug\UI.pdb

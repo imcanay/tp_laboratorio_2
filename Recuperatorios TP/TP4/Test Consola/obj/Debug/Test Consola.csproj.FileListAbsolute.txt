@@ -1,0 +1,10 @@
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\Test Consola\bin\Debug\Test Consola.exe.config
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\Test Consola\bin\Debug\Test Consola.exe
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\Test Consola\bin\Debug\Test Consola.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\Test Consola\bin\Debug\Entidades.dll
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\Test Consola\bin\Debug\Entidades.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\Test Consola\obj\Debug\Test Consola.csproj.AssemblyReference.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\Test Consola\obj\Debug\Test Consola.csproj.CoreCompileInputs.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\Test Consola\obj\Debug\Test Consola.csproj.CopyComplete
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\Test Consola\obj\Debug\Test Consola.exe
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\Test Consola\obj\Debug\Test Consola.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{258869EC-D21C-4BFB-BEB5-A4C6B965F21F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{18C81FF5-82B4-421F-86B9-FAD1B50F1439}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{258869EC-D21C-4BFB-BEB5-A4C6B965F21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{258869EC-D21C-4BFB-BEB5-A4C6B965F21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{258869EC-D21C-4BFB-BEB5-A4C6B965F21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{258869EC-D21C-4BFB-BEB5-A4C6B965F21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C81FF5-82B4-421F-86B9-FAD1B50F1439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C81FF5-82B4-421F-86B9-FAD1B50F1439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C81FF5-82B4-421F-86B9-FAD1B50F1439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C81FF5-82B4-421F-86B9-FAD1B50F1439}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEB6EF74-E38E-4B7B-8AD2-6DC4518BEC50}
+	EndGlobalSection
+EndGlobal

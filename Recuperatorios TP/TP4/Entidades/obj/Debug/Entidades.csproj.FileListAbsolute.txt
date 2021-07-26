@@ -1,0 +1,12 @@
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\Entidades\bin\Debug\Entidades.dll
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\Entidades\obj\Debug\Entidades.dll
+C:\Users\Nax\UTN\Laboratorio Programacion II\Trabajo Practico 4\2.0\TP4 Recuperatorio\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\Nax\Desktop\Nueva carpeta (2)\Recuperatorios TP\TP4\Entidades\obj\Debug\Entidades.pdb

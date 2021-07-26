@@ -1,0 +1,29 @@
+Nuevo archivo creado en: 25/07/2021 19:11:44
+
+Nombre del Mueble: Sillon Coloreable
+Base de: hierro
+Tapizado de:  Algodon
+El color de la base es: Blue
+el color del tapizado es: Yellow 
+Agregado el: 25/07/2021 19:11:44
+
+Nombre del Mueble: ropero barnizable
+Base de: madera
+El color del Barniz es: Algarrobo
+Estantes de: madera
+color: Black
+Agregado el: 25/07/2021 19:11:44
+
+Nombre del Mueble: Sillon Coloreable
+Base de: hierro
+Tapizado de:  Algodon
+El color de la base es: Blue
+el color del tapizado es: Yellow
+Agregado el: 25/07/2021 19:12:14
+
+Nombre del Mueble: ropero barnizable
+Base de: madera
+El color del Barniz es: Algarrobo
+Estantes de: madera
+color: Black
+Agregado el: 25/07/2021 19:12:14

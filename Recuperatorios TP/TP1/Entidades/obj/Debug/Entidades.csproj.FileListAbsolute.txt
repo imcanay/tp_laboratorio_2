@@ -1,0 +1,6 @@
+C:\Users\Nax\UTN\Laboratorio Programacion II\Recuperatorios\TP1 Recuperatorio\Entidades\bin\Debug\Entidades.dll
+C:\Users\Nax\UTN\Laboratorio Programacion II\Recuperatorios\TP1 Recuperatorio\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Nax\UTN\Laboratorio Programacion II\Recuperatorios\TP1 Recuperatorio\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Recuperatorios\TP1 Recuperatorio\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Nax\UTN\Laboratorio Programacion II\Recuperatorios\TP1 Recuperatorio\Entidades\obj\Debug\Entidades.dll
+C:\Users\Nax\UTN\Laboratorio Programacion II\Recuperatorios\TP1 Recuperatorio\Entidades\obj\Debug\Entidades.pdb
