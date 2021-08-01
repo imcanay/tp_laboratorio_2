@@ -43,9 +43,10 @@ namespace UI
             this.btnLimpiar.Location = new System.Drawing.Point(241, 100);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(83, 31);
-            this.btnLimpiar.TabIndex = 7;
+            this.btnLimpiar.TabIndex = 3;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnAgregar
             // 
@@ -55,25 +56,26 @@ namespace UI
             this.btnAgregar.Location = new System.Drawing.Point(24, 100);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(80, 31);
-            this.btnAgregar.TabIndex = 6;
+            this.btnAgregar.TabIndex = 2;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // tbxNombreMaterial
             // 
             this.tbxNombreMaterial.Location = new System.Drawing.Point(24, 52);
             this.tbxNombreMaterial.Name = "tbxNombreMaterial";
             this.tbxNombreMaterial.Size = new System.Drawing.Size(299, 21);
-            this.tbxNombreMaterial.TabIndex = 5;
+            this.tbxNombreMaterial.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 21);
+            this.label1.Location = new System.Drawing.Point(21, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 14);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Nombre";
+            this.label1.Size = new System.Drawing.Size(126, 14);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Nombre del material";
             // 
             // frmAgregarMaterial
             // 
@@ -87,6 +89,9 @@ namespace UI
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
             this.ForeColor = System.Drawing.Color.LightGreen;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmAgregarMaterial";
             this.Text = "frmAgregarMaterial";
             this.ResumeLayout(false);

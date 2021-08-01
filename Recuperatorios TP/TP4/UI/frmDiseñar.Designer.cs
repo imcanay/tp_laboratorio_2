@@ -131,7 +131,10 @@ namespace UI
             this.Controls.Add(this.btnPintar);
             this.Controls.Add(this.lblLista);
             this.Controls.Add(this.lsbxListaMueblesAPintar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmDiseñar";
             this.Text = "frmDiseñar";
             this.Load += new System.EventHandler(this.frmDiseñar_Load);

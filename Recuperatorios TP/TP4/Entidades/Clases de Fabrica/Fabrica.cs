@@ -27,7 +27,7 @@ namespace Entidades
         public static void AgregarMaterial(Material material)
         {
 
-            listaDeMateriales += material;
+            Fabrica.listaDeMateriales += material;
 
         }
         public static void AgregarProducto(Mueble producto)
@@ -51,7 +51,7 @@ namespace Entidades
             if (listaDeMateriales == producto.MaterialBase && listaDeMateriales == producto.MaterialEstantes)
             {
                 listaDeMuebles.Add(producto);
-                Thread.Sleep(5000);
+                Thread.Sleep(15000);
             }
         }
         public static void AgregarProducto(Sillon producto)
@@ -60,7 +60,7 @@ namespace Entidades
             {
                 listaDeMuebles.Add(producto);
                 
-                Thread.Sleep(3000);
+                Thread.Sleep(10000);
             }
             else
             {
@@ -72,10 +72,10 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine("****lista de materiales disponibles**\n");
+            sb.AppendLine("lista de materiales disponibles:");
             foreach (Material item in listaDeMateriales)
             {
-                sb.AppendLine("\n_________________________________");
+                sb.Append("_________________________________\n");
                 sb.Append(item.ToString());
             }
             return sb.ToString();

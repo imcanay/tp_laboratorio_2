@@ -15,26 +15,27 @@ namespace UI
     public partial class frmFabrica : Form
     {
         FabricaDAO fabricaDAO;
-        
+
         public frmFabrica()
         {
             InitializeComponent();
-            //materiales basicos de los muebles
-            Material madera = new Material("madera");
-            Material hierro = new Material("hierro");
-            Material algodon = new Material("Algodon");
-            Fabrica.AgregarMaterial(madera);
-            Fabrica.AgregarMaterial(hierro);
-            Fabrica.AgregarMaterial(algodon);
-            Sillon sillonDefault = new Sillon("Sillon Madera y algodon", madera, algodon);
-            Sillon sillonDefault2 = new Sillon("Sillon Madera y madera", madera, madera);
 
-            Ropero roperoDefault = new Ropero("Ropero Madera y Hierro", madera, hierro);
-            Ropero roperoDefault2 = new Ropero("Ropero Madera y Madera", madera, madera);
-            Fabrica.listaDeMuebles.Add(sillonDefault);
-            Fabrica.listaDeMuebles.Add(roperoDefault);
-            Fabrica.listaDeMuebles.Add(roperoDefault2);
-            Fabrica.listaDeMuebles.Add(sillonDefault2);
+            //materiales basicos de los muebles
+            //Material madera = new Material("Madera");
+            //Material hierro = new Material("Hierro");
+            //Material algodon = new Material("Algodon");
+            //Fabrica.AgregarMaterial(madera);
+            //Fabrica.AgregarMaterial(hierro);
+            //Fabrica.AgregarMaterial(algodon);
+            //Sillon sillonDefault = new Sillon("Sillon Madera y algodon", madera, algodon);
+            //Sillon sillonDefault2 = new Sillon("Sillon Madera y madera", madera, madera);
+
+            //Ropero roperoDefault = new Ropero("Ropero Madera y Hierro", madera, hierro);
+            //Ropero roperoDefault2 = new Ropero("Ropero Madera y Madera", madera, madera);
+            //Fabrica.listaDeMuebles.Add(sillonDefault);
+            //Fabrica.listaDeMuebles.Add(roperoDefault);
+            //Fabrica.listaDeMuebles.Add(roperoDefault2);
+            //Fabrica.listaDeMuebles.Add(sillonDefault2);
             fabricaDAO = new FabricaDAO();
 
 
@@ -42,8 +43,10 @@ namespace UI
 
         private void btnFabricar_Mueble_Click(object sender, EventArgs e)
         {
+
             frmAgregarMueble frmAgregarMueble = new frmAgregarMueble();
             frmAgregarMueble.ShowDialog();
+
         }
 
         private void btnDiseñar_Mueble_Click(object sender, EventArgs e)
@@ -66,6 +69,8 @@ namespace UI
 
         private void btnGuardar_DB_Click(object sender, EventArgs e)
         {
+
+
             if (fabricaDAO.InsertListaDeMuebles(Fabrica.listaDeMuebles))
             {
                 MessageBox.Show("Se guardo la lista en la Base de datos");
@@ -79,8 +84,19 @@ namespace UI
 
         private void btnCargar_BD_Click(object sender, EventArgs e)
         {
-            List<Mueble> listaDeMueblesDB;
-            listaDeMueblesDB = fabricaDAO.GetListaDeMuebles();
+            try
+            {
+                List<Mueble> listaDeMueblesDB;
+                listaDeMueblesDB = fabricaDAO.GetListaDeMuebles();
+                Fabrica.listaDeMuebles = listaDeMueblesDB;
+                MessageBox.Show("Se cargo la DB");
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+
         }
 
         private void btnAgregar_Material_Click(object sender, EventArgs e)
@@ -91,7 +107,10 @@ namespace UI
 
         private void frmFabrica_Load(object sender, EventArgs e)
         {
-
+            string nombreDeArchivoXml = "Materiales.xml";
+            string carpetaXml = AppDomain.CurrentDomain.BaseDirectory + @"\";
+            string pathCompletoXml = carpetaXml + nombreDeArchivoXml;
+            Xml<List<Material>>.Leer(pathCompletoXml, out Fabrica.listaDeMateriales);
         }
     }
 }

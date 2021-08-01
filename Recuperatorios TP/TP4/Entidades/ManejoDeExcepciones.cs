@@ -33,6 +33,10 @@ namespace Entidades
         {
 
         }
+        public FaltaSeleccionException(string message) : base(message)
+        {
+
+        }
 
     }
     public class BarnizarSillaException : Exception

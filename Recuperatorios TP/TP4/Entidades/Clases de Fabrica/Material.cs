@@ -53,7 +53,7 @@ namespace Entidades
             bool retorno = false;
             foreach (Material item in listaDeMaterial)
             {
-                if (item.Nombre == material.Nombre)
+                if (item.Nombre.ToLower() == material.Nombre.ToLower())
                 {
                     retorno = true;
                     break;
@@ -75,6 +75,7 @@ namespace Entidades
         {
             return new Material(nombre);
         }
+
 
     }
 }

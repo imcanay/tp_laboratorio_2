@@ -66,7 +66,10 @@ namespace UI
             this.ClientSize = new System.Drawing.Size(455, 380);
             this.Controls.Add(this.btnGuardar_Xml);
             this.Controls.Add(this.rtbxListaDeMuebles);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmListaDeMuebles";
             this.Text = "frmListaDeMuebles";
             this.Load += new System.EventHandler(this.frmListaDeMuebles_Load);

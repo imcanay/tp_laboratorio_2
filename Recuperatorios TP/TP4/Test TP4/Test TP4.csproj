@@ -52,6 +52,7 @@
     <Compile Include="Test_Ropero.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test_Sillon.cs" />
+    <Compile Include="Xml_Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

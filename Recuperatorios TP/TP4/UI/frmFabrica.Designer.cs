@@ -62,7 +62,7 @@ namespace UI
             this.btnFabricar_Mueble.Location = new System.Drawing.Point(68, 58);
             this.btnFabricar_Mueble.Name = "btnFabricar_Mueble";
             this.btnFabricar_Mueble.Size = new System.Drawing.Size(102, 38);
-            this.btnFabricar_Mueble.TabIndex = 0;
+            this.btnFabricar_Mueble.TabIndex = 2;
             this.btnFabricar_Mueble.Text = "Fabricar Mueble";
             this.btnFabricar_Mueble.UseVisualStyleBackColor = false;
             this.btnFabricar_Mueble.Click += new System.EventHandler(this.btnFabricar_Mueble_Click);
@@ -77,7 +77,7 @@ namespace UI
             this.btnAgregar_Material.Location = new System.Drawing.Point(68, 12);
             this.btnAgregar_Material.Name = "btnAgregar_Material";
             this.btnAgregar_Material.Size = new System.Drawing.Size(102, 38);
-            this.btnAgregar_Material.TabIndex = 1;
+            this.btnAgregar_Material.TabIndex = 0;
             this.btnAgregar_Material.Text = "Agregar Material";
             this.btnAgregar_Material.UseVisualStyleBackColor = false;
             this.btnAgregar_Material.Click += new System.EventHandler(this.btnAgregar_Material_Click);
@@ -92,7 +92,7 @@ namespace UI
             this.btnDiseñar_Mueble.Location = new System.Drawing.Point(68, 112);
             this.btnDiseñar_Mueble.Name = "btnDiseñar_Mueble";
             this.btnDiseñar_Mueble.Size = new System.Drawing.Size(102, 38);
-            this.btnDiseñar_Mueble.TabIndex = 2;
+            this.btnDiseñar_Mueble.TabIndex = 4;
             this.btnDiseñar_Mueble.Text = "Diseñar Mueble";
             this.btnDiseñar_Mueble.UseVisualStyleBackColor = false;
             this.btnDiseñar_Mueble.Click += new System.EventHandler(this.btnDiseñar_Mueble_Click);
@@ -122,7 +122,7 @@ namespace UI
             this.btnListar_Materiales.Location = new System.Drawing.Point(256, 12);
             this.btnListar_Materiales.Name = "btnListar_Materiales";
             this.btnListar_Materiales.Size = new System.Drawing.Size(102, 38);
-            this.btnListar_Materiales.TabIndex = 4;
+            this.btnListar_Materiales.TabIndex = 1;
             this.btnListar_Materiales.Text = "Lista de Materiales";
             this.btnListar_Materiales.UseVisualStyleBackColor = false;
             this.btnListar_Materiales.Click += new System.EventHandler(this.btnListar_Materiales_Click);
@@ -148,7 +148,7 @@ namespace UI
             this.btnGuardar_DB.Location = new System.Drawing.Point(266, 131);
             this.btnGuardar_DB.Name = "btnGuardar_DB";
             this.btnGuardar_DB.Size = new System.Drawing.Size(92, 24);
-            this.btnGuardar_DB.TabIndex = 8;
+            this.btnGuardar_DB.TabIndex = 5;
             this.btnGuardar_DB.Text = "Guardar";
             this.btnGuardar_DB.UseVisualStyleBackColor = false;
             this.btnGuardar_DB.Click += new System.EventHandler(this.btnGuardar_DB_Click);
@@ -163,7 +163,7 @@ namespace UI
             this.btnCargar_BD.Location = new System.Drawing.Point(266, 158);
             this.btnCargar_BD.Name = "btnCargar_BD";
             this.btnCargar_BD.Size = new System.Drawing.Size(92, 24);
-            this.btnCargar_BD.TabIndex = 9;
+            this.btnCargar_BD.TabIndex = 6;
             this.btnCargar_BD.Text = "Cargar";
             this.btnCargar_BD.UseVisualStyleBackColor = false;
             this.btnCargar_BD.Click += new System.EventHandler(this.btnCargar_BD_Click);
@@ -248,7 +248,10 @@ namespace UI
             this.Controls.Add(this.btnDiseñar_Mueble);
             this.Controls.Add(this.btnAgregar_Material);
             this.Controls.Add(this.btnFabricar_Mueble);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmFabrica";
             this.Text = "Fabrica de Muebles S.A";
             this.Load += new System.EventHandler(this.frmFabrica_Load);

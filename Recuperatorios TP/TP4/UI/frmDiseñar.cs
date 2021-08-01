@@ -28,7 +28,7 @@ namespace UI
             {
                 Ropero roperoAx = (Ropero)Fabrica.listaDeMuebles[indice];
 
-                if (roperoAx.MaterialBase.Nombre == "madera")
+                if (roperoAx.MaterialBase.Nombre.ToLower() == "madera")
                 {
                     roperoAx.Barnizar((EColorBarniz)cmbxColorBase.SelectedItem);
                 }
@@ -38,7 +38,7 @@ namespace UI
                 }
                 try
                 {
-                    if (roperoAx.MaterialEstantes.Nombre == "madera")
+                    if (roperoAx.MaterialEstantes.Nombre.ToLower() == "madera")
                     {
 
                         throw new BarnizarEstantesException();
@@ -100,6 +100,21 @@ namespace UI
             listaMuebles.DataSource = Fabrica.listaDeMuebles;
             lsbxListaMueblesAPintar.DataSource = listaMuebles;
             lsbxListaMueblesAPintar.DisplayMember = "Nombre";
+
+            if (Fabrica.listaDeMuebles.Count ==0)
+            {
+                DialogResult dialogResult = MessageBox.Show("Aun no se fabrico ningun mueble, deasea ir al formulario de fabricacion?", "Sin Muebles", MessageBoxButtons.YesNo);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    this.Dispose();
+                    frmAgregarMueble frmAgregarMueble = new frmAgregarMueble();
+                    frmAgregarMueble.ShowDialog();
+                }
+                else
+                {
+                    this.Dispose();
+                }
+            }
         }
 
         private void lsbxListaMueblesAPintar_SelectedIndexChanged(object sender, EventArgs e)
@@ -121,7 +136,7 @@ namespace UI
             {
                 Ropero roperoAx = (Ropero)Fabrica.listaDeMuebles[indice];//este es el objeto seleccionado
                 //material base
-                if (roperoAx.MaterialBase.EsMadera()) //si es base de madera
+                if (roperoAx.MaterialBase.EsMaterial("madera")) //si es base de madera
                 {
                     cmbxColorBase.DataSource = baseBarniz; // muestra lista de barnices
                 }
@@ -132,7 +147,7 @@ namespace UI
                 //material secundario
                 try
                 {
-                    if (roperoAx.MaterialEstantes.EsMadera())
+                    if (roperoAx.MaterialEstantes.EsMaterial("madera"))
                     {
                         throw new BarnizarEstantesException();
                     }
@@ -150,7 +165,7 @@ namespace UI
                 Sillon sillonAx = (Sillon)Fabrica.listaDeMuebles[indice];//objeto sillon
                 try
                 {
-                    if (sillonAx.MaterialBase.Nombre == "madera") // si es base de madera
+                    if (sillonAx.MaterialBase.EsMaterial("madera")) // si es base de madera
                     {
                         //muestra lista de colores
                         throw new BarnizarSillaException();  // por que las sillas no se barnizan
@@ -172,7 +187,7 @@ namespace UI
                 try
                 {
                     //material secundario
-                    if (sillonAx.MaterialTapizado.Nombre == "madera")
+                    if (sillonAx.MaterialTapizado.EsMaterial("madera"))
                     {
 
                         throw new BarnizarSillaException();

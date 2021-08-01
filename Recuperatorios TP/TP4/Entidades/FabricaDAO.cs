@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -18,9 +19,12 @@ namespace Entidades
         {
             connection = new SqlConnection(connectionString);
             command = new SqlCommand();
-           
-        }
 
+        }
+        /// <summary>
+        /// Metodo para traer una lista de muebles de la base de datos
+        /// </summary>
+        /// <returns>la lista de muebles que se obtuvo de la base de datos</returns>
         public List<Mueble> GetListaDeMuebles()
         {
             List<Mueble> listaMuebles = new List<Mueble>();
@@ -32,7 +36,7 @@ namespace Entidades
             {
 
                 connection.Open();
-            reader = command.ExecuteReader();
+                reader = command.ExecuteReader();
                 while (reader.Read())
                 {
                     if (reader["Tipo"].ToString() == "Sillon")
@@ -40,7 +44,7 @@ namespace Entidades
                         auxSillon.Nombre = reader["Nombre"].ToString();
                         auxSillon.MaterialBase = (Material)reader["MaterialBase"].ToString();
                         auxSillon.MaterialTapizado = (Material)reader["MaterialTapizado"].ToString();
-                        auxSillon.ColorBase =(ConsoleColor)reader["ColorBase"];
+                        auxSillon.ColorBase = (ConsoleColor)reader["ColorBase"];
                         auxSillon.ColorTapizado = (ConsoleColor)reader["ColorTapizado"];
                         listaMuebles.Add(auxSillon);
                     }
@@ -60,15 +64,27 @@ namespace Entidades
             {
 
                 throw;
+            }finally
+            {
+                if (connection !=null && connection.State != ConnectionState.Closed )
+                {
+                connection.Close();
+                }
             }
             return listaMuebles;
         }
-    public bool InsertListaDeMuebles(List<Mueble> listaDeMuebles)
+
+        /// <summary>
+        /// metodo para cargar una lista de muebles en la base de datos.
+        /// </summary>
+        /// <param name="listaDeMuebles"></param>
+        /// <returns></returns>
+        public bool InsertListaDeMuebles(List<Mueble> listaDeMuebles)
         {
             bool retorno = false;
-            
+
             connection.ConnectionString = connectionString;
-    
+
             Sillon auxSillon = new Sillon();
             Ropero auxRopero = new Ropero();
             command.CommandText = "INSERT INTO ListaDeMuebles values(@Nombre,@MaterialBase,@MaterialEstantes,@MaterialTapizado,@ColorBase,@ColorEstantes,@ColorTapizado,@ColorBarniz,@Tipo)";
@@ -83,7 +99,7 @@ namespace Entidades
                         auxSillon = (Sillon)item;
                         command.Parameters.Add(new SqlParameter("Nombre", auxSillon.Nombre));
                         command.Parameters.Add(new SqlParameter("MaterialBase", auxSillon.MaterialBase.ToString()));
-                        command.Parameters.Add(new SqlParameter("MaterialEstantes", ""));//materialestantes
+                        command.Parameters.Add(new SqlParameter("MaterialEstantes", "NA"));//materialestantes
                         command.Parameters.Add(new SqlParameter("MaterialTapizado", auxSillon.MaterialTapizado.ToString()));
                         command.Parameters.Add(new SqlParameter("ColorBase", (int)auxSillon.ColorBase));
                         command.Parameters.Add(new SqlParameter("ColorEstantes", 1));//colorestantes
@@ -100,13 +116,13 @@ namespace Entidades
                         command.Parameters.Add(new SqlParameter("Nombre", auxRopero.Nombre));
                         command.Parameters.Add(new SqlParameter("MaterialBase", auxRopero.MaterialBase.ToString()));
                         command.Parameters.Add(new SqlParameter("MaterialEstantes", auxRopero.MaterialEstantes.ToString()));
-                        command.Parameters.Add(new SqlParameter("MaterialTapizado", ""));//materialtapizado
+                        command.Parameters.Add(new SqlParameter("MaterialTapizado", "NA"));//materialtapizado
                         command.Parameters.Add(new SqlParameter("ColorBase", (int)auxRopero.ColorBase));
                         command.Parameters.Add(new SqlParameter("ColorEstantes", (int)auxRopero.ColorEstantes));
                         command.Parameters.Add(new SqlParameter("ColorTapizado", 1));//colortapizado
                         command.Parameters.Add(new SqlParameter("ColorBarniz", (int)auxRopero.ColorBarniz));
                         command.Parameters.Add(new SqlParameter("Tipo", "Ropero"));
-                        
+
                         command.ExecuteNonQuery();
                         command.Parameters.Clear();
 
@@ -123,17 +139,12 @@ namespace Entidades
             {
 
                 throw;
-            }finally
-            {
-                connection.Close();
-
             }
-                
-           
-
-
-
-            return retorno;        
+            finally
+            {
+               connection.Close();
+            }
+            return retorno;
         }
 
     }
