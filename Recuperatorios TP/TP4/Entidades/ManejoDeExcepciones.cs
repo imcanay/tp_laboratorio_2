@@ -62,5 +62,21 @@ namespace Entidades
 
         }
     }
+    public class SqlListaNullException : Exception
+    {
+        public SqlListaNullException() : base("La lista de muebles esta vacia o es null, no se guardo en la base de datos")
+        {
+        }
+    }
+    public class SqlLecturaDbException : Exception
+    {
+        public SqlLecturaDbException() : base("Error al leer desde la base de datos")
+        {
 
+        }
+        public SqlLecturaDbException(string message, Exception ex) : base (message, ex)
+        {
+
+        }
+    }
 }

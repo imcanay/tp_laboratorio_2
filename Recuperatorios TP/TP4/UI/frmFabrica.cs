@@ -70,14 +70,22 @@ namespace UI
         private void btnGuardar_DB_Click(object sender, EventArgs e)
         {
 
+            try
+            {
+                if (fabricaDAO.InsertListaDeMuebles(Fabrica.listaDeMuebles))
+                {
+                    MessageBox.Show("Se guardo la lista en la Base de datos");
+                }
+                else
+                {
+                    MessageBox.Show("No se guardo la lista en la Base de datos");
+                }
 
-            if (fabricaDAO.InsertListaDeMuebles(Fabrica.listaDeMuebles))
-            {
-                MessageBox.Show("Se guardo la lista en la Base de datos");
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("No se guardo la lista en la Base de datos");
+
+                MessageBox.Show(ex.InnerException.Message);
             }
 
         }

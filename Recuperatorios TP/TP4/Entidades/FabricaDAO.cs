@@ -60,15 +60,16 @@ namespace Entidades
                     }
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
-            }finally
+                throw new Exception("Error al leer BD", ex);
+            }
+            finally
             {
-                if (connection !=null && connection.State != ConnectionState.Closed )
+                if (connection != null && connection.State != ConnectionState.Closed)
                 {
-                connection.Close();
+                    connection.Close();
                 }
             }
             return listaMuebles;
@@ -87,62 +88,74 @@ namespace Entidades
 
             Sillon auxSillon = new Sillon();
             Ropero auxRopero = new Ropero();
-            command.CommandText = "INSERT INTO ListaDeMuebles values(@Nombre,@MaterialBase,@MaterialEstantes,@MaterialTapizado,@ColorBase,@ColorEstantes,@ColorTapizado,@ColorBarniz,@Tipo)";
+            string commandInsert = "INSERT INTO ListaDeMuebles values(@Nombre,@MaterialBase,@MaterialEstantes,@MaterialTapizado,@ColorBase,@ColorEstantes,@ColorTapizado,@ColorBarniz,@Tipo)";
+            string commandDelete = "DELETE  FROM ListaDeMuebles";
+            
             command.Connection = connection;
+
             try
             {
-                connection.Open();
-                foreach (var item in listaDeMuebles)
+                if (listaDeMuebles.Count == 0 || listaDeMuebles == null)
                 {
-                    if (item.GetType() == typeof(Sillon))
-                    {
-                        auxSillon = (Sillon)item;
-                        command.Parameters.Add(new SqlParameter("Nombre", auxSillon.Nombre));
-                        command.Parameters.Add(new SqlParameter("MaterialBase", auxSillon.MaterialBase.ToString()));
-                        command.Parameters.Add(new SqlParameter("MaterialEstantes", "NA"));//materialestantes
-                        command.Parameters.Add(new SqlParameter("MaterialTapizado", auxSillon.MaterialTapizado.ToString()));
-                        command.Parameters.Add(new SqlParameter("ColorBase", (int)auxSillon.ColorBase));
-                        command.Parameters.Add(new SqlParameter("ColorEstantes", 1));//colorestantes
-                        command.Parameters.Add(new SqlParameter("ColorTapizado", (int)auxSillon.ColorTapizado));
-                        command.Parameters.Add(new SqlParameter("ColorBarniz", 1));//color barniz
-                        command.Parameters.Add(new SqlParameter("Tipo", "Sillon"));
-                        command.ExecuteNonQuery();
-                        command.Parameters.Clear();
-
-                    }
-                    else if (item.GetType() == typeof(Ropero))
-                    {
-                        auxRopero = (Ropero)item;
-                        command.Parameters.Add(new SqlParameter("Nombre", auxRopero.Nombre));
-                        command.Parameters.Add(new SqlParameter("MaterialBase", auxRopero.MaterialBase.ToString()));
-                        command.Parameters.Add(new SqlParameter("MaterialEstantes", auxRopero.MaterialEstantes.ToString()));
-                        command.Parameters.Add(new SqlParameter("MaterialTapizado", "NA"));//materialtapizado
-                        command.Parameters.Add(new SqlParameter("ColorBase", (int)auxRopero.ColorBase));
-                        command.Parameters.Add(new SqlParameter("ColorEstantes", (int)auxRopero.ColorEstantes));
-                        command.Parameters.Add(new SqlParameter("ColorTapizado", 1));//colortapizado
-                        command.Parameters.Add(new SqlParameter("ColorBarniz", (int)auxRopero.ColorBarniz));
-                        command.Parameters.Add(new SqlParameter("Tipo", "Ropero"));
-
-                        command.ExecuteNonQuery();
-                        command.Parameters.Clear();
-
-                    }
-                    else
-                    {
-                        throw new Exception("Esta ingresando algo que no es un mueble");
-                    }
+                    throw new SqlListaNullException();
                 }
-                retorno = true;
+                else
+                {
+
+
+                    connection.Open();
+                    command.CommandText = commandDelete;
+                    command.ExecuteNonQuery();
+                    command.CommandText = commandInsert;
+                    foreach (var item in listaDeMuebles)
+                    {
+                        if (item.GetType() == typeof(Sillon))
+                        {
+                            auxSillon = (Sillon)item;
+                            command.Parameters.Add(new SqlParameter("Nombre", auxSillon.Nombre));
+                            command.Parameters.Add(new SqlParameter("MaterialBase", auxSillon.MaterialBase.ToString()));
+                            command.Parameters.Add(new SqlParameter("MaterialEstantes", "NA"));//materialestantes
+                            command.Parameters.Add(new SqlParameter("MaterialTapizado", auxSillon.MaterialTapizado.ToString()));
+                            command.Parameters.Add(new SqlParameter("ColorBase", (int)auxSillon.ColorBase));
+                            command.Parameters.Add(new SqlParameter("ColorEstantes", 1));//colorestantes
+                            command.Parameters.Add(new SqlParameter("ColorTapizado", (int)auxSillon.ColorTapizado));
+                            command.Parameters.Add(new SqlParameter("ColorBarniz", 1));//color barniz
+                            command.Parameters.Add(new SqlParameter("Tipo", "Sillon"));
+                            command.ExecuteNonQuery();
+                            command.Parameters.Clear();
+                        }
+                        else if (item.GetType() == typeof(Ropero))
+                        {
+                            auxRopero = (Ropero)item;
+                            command.Parameters.Add(new SqlParameter("Nombre", auxRopero.Nombre));
+                            command.Parameters.Add(new SqlParameter("MaterialBase", auxRopero.MaterialBase.ToString()));
+                            command.Parameters.Add(new SqlParameter("MaterialEstantes", auxRopero.MaterialEstantes.ToString()));
+                            command.Parameters.Add(new SqlParameter("MaterialTapizado", "NA"));//materialtapizado
+                            command.Parameters.Add(new SqlParameter("ColorBase", (int)auxRopero.ColorBase));
+                            command.Parameters.Add(new SqlParameter("ColorEstantes", (int)auxRopero.ColorEstantes));
+                            command.Parameters.Add(new SqlParameter("ColorTapizado", 1));//colortapizado
+                            command.Parameters.Add(new SqlParameter("ColorBarniz", (int)auxRopero.ColorBarniz));
+                            command.Parameters.Add(new SqlParameter("Tipo", "Ropero"));
+                            command.ExecuteNonQuery();
+                            command.Parameters.Clear();
+                        }
+                        else
+                        {
+                            throw new Exception("Esta ingresando algo que no es un mueble");
+                        }
+                    }
+                    retorno = true;
+                }
             }
 
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                throw new SqlLecturaDbException("Error al instertar lista de muebles en la base de datos", ex);
             }
             finally
             {
-               connection.Close();
+                connection.Close();
             }
             return retorno;
         }

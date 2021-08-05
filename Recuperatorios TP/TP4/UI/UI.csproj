@@ -158,5 +158,32 @@
   <ItemGroup>
     <None Include="Resources\DB icono DB.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\design.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\furniture list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\materiales list icono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fabrica icono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DB icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fabricar muebles icono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lista materiales icono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar material icono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lista de muebles icono.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

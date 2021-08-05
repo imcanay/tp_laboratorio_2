@@ -57,7 +57,7 @@ namespace UI
             // 
             this.lblMaterialSecundario.AutoSize = true;
             this.lblMaterialSecundario.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
-            this.lblMaterialSecundario.ForeColor = System.Drawing.Color.LightGreen;
+            this.lblMaterialSecundario.ForeColor = System.Drawing.Color.Ivory;
             this.lblMaterialSecundario.Location = new System.Drawing.Point(15, 154);
             this.lblMaterialSecundario.Name = "lblMaterialSecundario";
             this.lblMaterialSecundario.Size = new System.Drawing.Size(55, 14);
@@ -77,7 +77,7 @@ namespace UI
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
-            this.lblNombre.ForeColor = System.Drawing.Color.LightGreen;
+            this.lblNombre.ForeColor = System.Drawing.Color.Ivory;
             this.lblNombre.Location = new System.Drawing.Point(12, 32);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(118, 14);
@@ -88,7 +88,7 @@ namespace UI
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.LightGreen;
+            this.label2.ForeColor = System.Drawing.Color.Ivory;
             this.label2.Location = new System.Drawing.Point(12, 114);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 14);
@@ -99,7 +99,7 @@ namespace UI
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.LightGreen;
+            this.label1.ForeColor = System.Drawing.Color.Ivory;
             this.label1.Location = new System.Drawing.Point(12, 74);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(95, 14);
@@ -119,10 +119,10 @@ namespace UI
             // btnAgregarMueble
             // 
             this.btnAgregarMueble.BackColor = System.Drawing.Color.SteelBlue;
-            this.btnAgregarMueble.FlatAppearance.BorderColor = System.Drawing.Color.OrangeRed;
+            this.btnAgregarMueble.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateGray;
             this.btnAgregarMueble.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregarMueble.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
-            this.btnAgregarMueble.ForeColor = System.Drawing.Color.LightGreen;
+            this.btnAgregarMueble.ForeColor = System.Drawing.Color.Ivory;
             this.btnAgregarMueble.Location = new System.Drawing.Point(57, 223);
             this.btnAgregarMueble.Name = "btnAgregarMueble";
             this.btnAgregarMueble.Size = new System.Drawing.Size(114, 52);
@@ -156,7 +156,7 @@ namespace UI
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.LightGreen;
+            this.label3.ForeColor = System.Drawing.Color.Ivory;
             this.label3.Location = new System.Drawing.Point(252, 32);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(134, 14);
@@ -167,7 +167,7 @@ namespace UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkBlue;
+            this.BackColor = System.Drawing.Color.LightSlateGray;
             this.ClientSize = new System.Drawing.Size(425, 289);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.rtbxUltimoMueble);
@@ -185,7 +185,8 @@ namespace UI
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmAgregarMueble";
-            this.Text = "frmAgregarMueble";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Fabrica de muebles";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmAgregarMueble_FormClosing);
             this.Load += new System.EventHandler(this.frmAgregarMueble_Load);
             this.ResumeLayout(false);

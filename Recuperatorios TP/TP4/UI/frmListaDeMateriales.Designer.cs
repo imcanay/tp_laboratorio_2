@@ -49,10 +49,10 @@ namespace UI
             // btnGuardar_Texto
             // 
             this.btnGuardar_Texto.BackColor = System.Drawing.Color.SteelBlue;
-            this.btnGuardar_Texto.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnGuardar_Texto.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateGray;
             this.btnGuardar_Texto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar_Texto.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar_Texto.ForeColor = System.Drawing.Color.LightGreen;
+            this.btnGuardar_Texto.ForeColor = System.Drawing.Color.Ivory;
             this.btnGuardar_Texto.Location = new System.Drawing.Point(12, 290);
             this.btnGuardar_Texto.Name = "btnGuardar_Texto";
             this.btnGuardar_Texto.Size = new System.Drawing.Size(109, 32);
@@ -64,10 +64,10 @@ namespace UI
             // btnGuardarXml
             // 
             this.btnGuardarXml.BackColor = System.Drawing.Color.SteelBlue;
-            this.btnGuardarXml.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnGuardarXml.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateGray;
             this.btnGuardarXml.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardarXml.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardarXml.ForeColor = System.Drawing.Color.LightGreen;
+            this.btnGuardarXml.ForeColor = System.Drawing.Color.Ivory;
             this.btnGuardarXml.Location = new System.Drawing.Point(123, 290);
             this.btnGuardarXml.Name = "btnGuardarXml";
             this.btnGuardarXml.Size = new System.Drawing.Size(63, 32);
@@ -79,10 +79,10 @@ namespace UI
             // btnCargarXml
             // 
             this.btnCargarXml.BackColor = System.Drawing.Color.SteelBlue;
-            this.btnCargarXml.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnCargarXml.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateGray;
             this.btnCargarXml.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCargarXml.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCargarXml.ForeColor = System.Drawing.Color.LightGreen;
+            this.btnCargarXml.ForeColor = System.Drawing.Color.Ivory;
             this.btnCargarXml.Location = new System.Drawing.Point(192, 290);
             this.btnCargarXml.Name = "btnCargarXml";
             this.btnCargarXml.Size = new System.Drawing.Size(105, 32);
@@ -95,8 +95,8 @@ namespace UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkBlue;
-            this.ClientSize = new System.Drawing.Size(423, 359);
+            this.BackColor = System.Drawing.Color.LightSlateGray;
+            this.ClientSize = new System.Drawing.Size(326, 331);
             this.Controls.Add(this.btnCargarXml);
             this.Controls.Add(this.btnGuardarXml);
             this.Controls.Add(this.btnGuardar_Texto);
@@ -106,7 +106,8 @@ namespace UI
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmListaDeMateriales";
-            this.Text = "frmListaDeMateriales";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lista de materiales";
             this.Load += new System.EventHandler(this.frmListaDeMateriales_Load);
             this.ResumeLayout(false);
 

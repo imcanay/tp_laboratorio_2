@@ -29,6 +29,7 @@ namespace UI
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAgregarMaterial));
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.tbxNombreMaterial = new System.Windows.Forms.TextBox();
@@ -38,7 +39,7 @@ namespace UI
             // btnLimpiar
             // 
             this.btnLimpiar.BackColor = System.Drawing.Color.SteelBlue;
-            this.btnLimpiar.FlatAppearance.BorderColor = System.Drawing.Color.OrangeRed;
+            this.btnLimpiar.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateGray;
             this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLimpiar.Location = new System.Drawing.Point(241, 100);
             this.btnLimpiar.Name = "btnLimpiar";
@@ -51,7 +52,7 @@ namespace UI
             // btnAgregar
             // 
             this.btnAgregar.BackColor = System.Drawing.Color.SteelBlue;
-            this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.OrangeRed;
+            this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateGray;
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Location = new System.Drawing.Point(24, 100);
             this.btnAgregar.Name = "btnAgregar";
@@ -81,19 +82,21 @@ namespace UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkBlue;
+            this.BackColor = System.Drawing.Color.LightSlateGray;
             this.ClientSize = new System.Drawing.Size(355, 158);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.tbxNombreMaterial);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
-            this.ForeColor = System.Drawing.Color.LightGreen;
+            this.ForeColor = System.Drawing.Color.Ivory;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmAgregarMaterial";
-            this.Text = "frmAgregarMaterial";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Agregar material";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -43,7 +43,7 @@ namespace UI
             // 
             this.lblColorSecundario.AutoSize = true;
             this.lblColorSecundario.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
-            this.lblColorSecundario.ForeColor = System.Drawing.Color.LightGreen;
+            this.lblColorSecundario.ForeColor = System.Drawing.Color.Ivory;
             this.lblColorSecundario.Location = new System.Drawing.Point(214, 105);
             this.lblColorSecundario.Name = "lblColorSecundario";
             this.lblColorSecundario.Size = new System.Drawing.Size(105, 14);
@@ -54,7 +54,7 @@ namespace UI
             // 
             this.lblColorBase.AutoSize = true;
             this.lblColorBase.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
-            this.lblColorBase.ForeColor = System.Drawing.Color.LightGreen;
+            this.lblColorBase.ForeColor = System.Drawing.Color.Ivory;
             this.lblColorBase.Location = new System.Drawing.Point(219, 45);
             this.lblColorBase.Name = "lblColorBase";
             this.lblColorBase.Size = new System.Drawing.Size(101, 14);
@@ -83,23 +83,24 @@ namespace UI
             // 
             // btnPintar
             // 
-            this.btnPintar.FlatAppearance.BorderColor = System.Drawing.Color.OrangeRed;
+            this.btnPintar.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnPintar.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateGray;
             this.btnPintar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPintar.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
-            this.btnPintar.ForeColor = System.Drawing.Color.LightGreen;
+            this.btnPintar.ForeColor = System.Drawing.Color.Ivory;
             this.btnPintar.Location = new System.Drawing.Point(257, 160);
             this.btnPintar.Name = "btnPintar";
             this.btnPintar.Size = new System.Drawing.Size(96, 47);
             this.btnPintar.TabIndex = 16;
             this.btnPintar.Text = "Diseñar";
-            this.btnPintar.UseVisualStyleBackColor = true;
+            this.btnPintar.UseVisualStyleBackColor = false;
             this.btnPintar.Click += new System.EventHandler(this.btnPintar_Click);
             // 
             // lblLista
             // 
             this.lblLista.AutoSize = true;
             this.lblLista.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
-            this.lblLista.ForeColor = System.Drawing.Color.LightGreen;
+            this.lblLista.ForeColor = System.Drawing.Color.Ivory;
             this.lblLista.Location = new System.Drawing.Point(12, 17);
             this.lblLista.Name = "lblLista";
             this.lblLista.Size = new System.Drawing.Size(119, 14);
@@ -122,7 +123,7 @@ namespace UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkBlue;
+            this.BackColor = System.Drawing.Color.LightSlateGray;
             this.ClientSize = new System.Drawing.Size(429, 248);
             this.Controls.Add(this.lblColorSecundario);
             this.Controls.Add(this.lblColorBase);
@@ -136,7 +137,8 @@ namespace UI
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmDiseñar";
-            this.Text = "frmDiseñar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Diseño de muebles";
             this.Load += new System.EventHandler(this.frmDiseñar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
