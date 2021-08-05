@@ -64,7 +64,7 @@ namespace UI
             // cmbxColorSecundario
             // 
             this.cmbxColorSecundario.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
-            this.cmbxColorSecundario.ForeColor = System.Drawing.Color.LightGreen;
+            this.cmbxColorSecundario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.cmbxColorSecundario.FormattingEnabled = true;
             this.cmbxColorSecundario.Location = new System.Drawing.Point(210, 121);
             this.cmbxColorSecundario.Name = "cmbxColorSecundario";
@@ -74,7 +74,7 @@ namespace UI
             // cmbxColorBase
             // 
             this.cmbxColorBase.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
-            this.cmbxColorBase.ForeColor = System.Drawing.Color.LightGreen;
+            this.cmbxColorBase.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.cmbxColorBase.FormattingEnabled = true;
             this.cmbxColorBase.Location = new System.Drawing.Point(210, 62);
             this.cmbxColorBase.Name = "cmbxColorBase";

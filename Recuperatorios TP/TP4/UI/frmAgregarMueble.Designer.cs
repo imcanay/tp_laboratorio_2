@@ -46,7 +46,7 @@ namespace UI
             // cmbMaterialSecundario
             // 
             this.cmbMaterialSecundario.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
-            this.cmbMaterialSecundario.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.cmbMaterialSecundario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.cmbMaterialSecundario.FormattingEnabled = true;
             this.cmbMaterialSecundario.Location = new System.Drawing.Point(12, 170);
             this.cmbMaterialSecundario.Name = "cmbMaterialSecundario";
@@ -67,7 +67,7 @@ namespace UI
             // txbxNombre
             // 
             this.txbxNombre.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
-            this.txbxNombre.ForeColor = System.Drawing.Color.LightGreen;
+            this.txbxNombre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txbxNombre.Location = new System.Drawing.Point(12, 48);
             this.txbxNombre.Name = "txbxNombre";
             this.txbxNombre.Size = new System.Drawing.Size(215, 21);
@@ -109,7 +109,7 @@ namespace UI
             // cmbMaterial
             // 
             this.cmbMaterial.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
-            this.cmbMaterial.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.cmbMaterial.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.cmbMaterial.FormattingEnabled = true;
             this.cmbMaterial.Location = new System.Drawing.Point(12, 130);
             this.cmbMaterial.Name = "cmbMaterial";
@@ -134,7 +134,7 @@ namespace UI
             // cmbTipoMueble
             // 
             this.cmbTipoMueble.Font = new System.Drawing.Font("Neo Sans", 8.249999F, System.Drawing.FontStyle.Bold);
-            this.cmbTipoMueble.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.cmbTipoMueble.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.cmbTipoMueble.FormattingEnabled = true;
             this.cmbTipoMueble.Location = new System.Drawing.Point(12, 90);
             this.cmbTipoMueble.Name = "cmbTipoMueble";
